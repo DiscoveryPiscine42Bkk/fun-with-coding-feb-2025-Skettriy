@@ -1,0 +1,61 @@
+body {
+    background: url('https://cdnb.artstation.com/p/assets/images/images/056/801/515/original/megalithiccat-crow.gif?1670137869') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+.container{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 50px; 
+}
+
+.hero {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px; 
+}
+
+.portfolio-grid {
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.portfolio-item {
+    text-align: center;
+}
+
+.resume-img {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.resume-img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.8);
+}
+
+.portfolio-item p {
+    font-size: 2rem; 
+    margin-top: 10px;
+    font-weight: bold;
+}
